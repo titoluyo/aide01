@@ -19,7 +19,7 @@ public class MainActivity extends Activity implements OnClickListener
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         
-        btnSend = (Button)findViewById(R.id.txtCorreo);
+        btnSend = (Button)findViewById(R.id.btnSend);
         btnSend.setOnClickListener(this);
         txtCorreo = (EditText)findViewById(R.id.txtCorreo);
         txtMessage = (TextView)findViewById(R.id.txtMessage);
